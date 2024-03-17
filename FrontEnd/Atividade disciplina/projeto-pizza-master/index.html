@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzaria Buonna Pizza</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body >
+  <header>
+    <h1>Pizzaria Buonna Pizza</h1>
+    <nav>
+      <ul>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#quem-somos">Quem Somos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#reserva">Reserve o seu pedido</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="wrapper">
+    <section id="cardapio">
+      <h2>Cardápio</h2>
+      <h3>Pizzas</h3>
+      <ul class="produtos">
+        <li>
+          <img src="https://www.receiteria.com.br/wp-content/uploads/pizza-de-calabresa-facil-capa.jpg" alt="">
+          <h4>Calabresa</h4>
+          <p>Molho, Mussarela, Calabresa, Cebola, Azeitona e Orégano</p>
+          <p>R$ 49.00</p>
+        </li>
+        <li>
+          <img src="https://www.homeit.com.br/wp-content/uploads/2023/07/Pizza-4-Queijos-de-Liquidificador-1200x900.jpg" alt="">
+          <h4>Quatro Queijos</h4>
+          <p>Molho, Mussarela, Provolone, Parmesão, Gorgonzola, Tomate, Azeitona e Orégano</p>
+          <p>R$ 52,00</p>
+        </li>
+        <li>
+          <img src="https://cafeviagem.com/wp-content/uploads/2019/11/pizzarias-em-Napoles-dicas18.jpg.webp" alt="">
+          <h4>Italiana</h4>
+          <p>Molho, Mussarela, Catupiry, Salaminho, Azeitona e Orégano</p>
+          <p>R$ 59,99</p>
+        </li>
+        <li>
+          <img src="https://lh3.googleusercontent.com/proxy/nmGqma9ExH5ENt1l3iBprPcHPW3EFzHc2EJX1lrelW_vGg9b1R1I4_cv__Gbm8Be18vk42HKMnHFrjo6of5WQw57GPg-n26TaxIQGj8GeOd6zX---XPKz_NVluIoUtIKoX3k7KS6vjgS" alt="">
+          <h4>Presunto</h4>
+          <p>Molho, Mussarela, Prersunto, Tomate, Azeitona e Orégano</p>
+          <p>R$ 51,00</p>
+        </li>
+      </ul>
+      
+      <h3>Bebidas</h3>
+      <ul>
+        <li>
+          <p>Coca-Cola 1,5L</p>
+          <p>R$ 7,00</p>
+        </li>
+        <li>
+          <p>Coca-Cola 2L</p>
+          <p>R$ 10,00</p>
+        </li>
+        <li>
+          <p>Coca-Cola Lata</p>
+          <p>R$ 4,00</p>
+        </li>
+        <li>
+          <p>Fanta Laranja 2L</p>
+          <p>R$ 7,00</p>
+        </li>
+        <li>
+          <p>Guaraná Antarctica 2L</p>
+          <p>R$ 7,00</p>
+        </li>
+        <li>
+          <p>Sprite 2L</p>
+          <p>R$ 7,00</p>
+        </li>
+      </ul>
+    </section>
+    
+    <section id="quem-somos">
+      <h2>Quem Somos</h2>
+      <p>A Pizzaria Buonna Pizza abriu as portas em 1910, fundada pelo pizzaiolo Carmino Corvino quando este veio morar no Brasil, no tradicional bairro paulistano conhecido como Brás.</p>
+    </section>
+    
+    <section id="contato">
+      <h2>Contato</h2>
+      <div style="display: flex; flex-direction: column;">
+        <div style="display: flex; align-items: center;">
+          <button id="whatsapp"></button>
+          <p style="margin-left: 10px;">WhatsApp (11)97777-7777</p>
+        </div>
+        <div style="display: flex; align-items: center;">
+          <button id="instagram"></button>
+          <p style="margin-left: 10px;">Instagram <a href="https://www.instagram.com/buonnapizza">@buonnapizza</a></p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="reserva">
+      <h2>Reserve o seu pedido</h2>
+      <form class="formulario">
+        <div>
+          <label for="">Nome</label>
+          <input type="text" name="nome" id="" placeholder="Digite seu nome">
+        </div>
+
+        <div>
+          <label for="">Endereço</label>
+          <input type="text" name="nome" id="" placeholder="Digite seu nome">
+        </div>
+        
+        <div>
+          <label for="">Pedido</label>
+          <textarea name="pedido" id="pedido-info" cols="30" rows="10" placeholder="Digite aqui seu pedido"></textarea>
+        </div>
+        <span>*Tempo de entrega para toda cidade: 2hrs</span>
+        <button type="submit">Fazer pedido</button>
+      </form>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2024 Pizzaria Buonna Pizza. Todos os direitos reservados.</p>
+  </footer>
+  </body>
+  </html>
+  

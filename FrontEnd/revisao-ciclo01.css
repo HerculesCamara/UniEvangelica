@@ -1,0 +1,9 @@
+
+img{
+    max-width: 240px;
+}
+
+.revistas {
+    display: flex;
+    gap: 10px;
+}

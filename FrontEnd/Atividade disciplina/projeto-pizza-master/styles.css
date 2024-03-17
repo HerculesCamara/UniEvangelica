@@ -1,0 +1,168 @@
+body {
+/*   background-color: #dc2626; */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  
+  text-decoration: none;
+  color: #333;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff6347;
+}
+
+section {
+  padding: 20px;
+}
+
+section h2 {
+  color: #333;
+}
+
+section ul {
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  list-style-type: none;
+  padding: 0;
+}
+
+section ul li {
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: red;
+  text-color: #ffffff;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+#whatsapp{
+  border: 0;
+  width: 24px;
+  height: 24px;
+  background: url(./assets/logo-whatsapp-light.svg);
+}
+
+#instagram{
+  border: 0;
+  width: 24px;
+  height: 24px;
+  background: url(./assets/instagram-light.svg);
+}
+
+#cardapio ul{
+  display: flex;
+  gap: 16px;
+}
+
+#cardapio ul li{
+  border: solid;
+  border-width: 1px;
+  border-color: #333;
+  border-radius: 16px;
+
+  width: 100%;
+  padding: 16px;
+}
+
+#cardapio ul img{
+  max-width: 300px;
+}
+
+#reserva form {
+  border: solid;
+  border-width: 1px;
+  border-color: #333;
+  border-radius: 16px;
+  
+  max-width: 350px;
+  padding: 16px;
+  height: auto;
+}
+
+#reserva form div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+#reserva form div :first-of-type {
+  margin-top: 0px;
+}
+
+#reserva form div input {
+  height: 24px;
+  padding: 4px 8px;
+
+  border-radius: 8px;
+  border: solid;
+  border-width: 1px;
+}
+
+#reserva form div label {
+  margin-bottom: 6px;
+}
+
+#reserva form div textarea {
+  padding: 4px 8px;
+
+  border-radius: 8px;
+  border: solid;
+  border-width: 1px;
+}
+
+#reserva form button {
+  height: auto;
+  padding: 8px 32px 8px 32px;
+
+  margin-top: 16px;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+  color: #fff;  
+  font-weight: bold;
+
+  background-color: #d6c400;
+}
+
+#reserva form span {
+  color: red;
+  font-size: 10px;
+}
